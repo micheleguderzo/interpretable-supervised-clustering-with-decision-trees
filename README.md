@@ -47,6 +47,15 @@ The dataset used is the **Breast Cancer Wisconsin (Diagnostic)** toy dataset pro
 - Jupyter Notebook  
 - LaTeX  
 
+## ⚠️ Notes on GitHub Visualization
+
+Due to GitHub's limitations in rendering Jupyter Notebooks, some special characters in the decision tree visualizations generated with Graphviz (e.g., the symbol `≤`) may appear incorrectly encoded (e.g., `\xe2\x89\xa4` instead of `≤`).
+
+To correctly view the decision tree diagrams:
+
+- Open the notebook locally using **Jupyter Notebook** or **Visual Studio Code**
+- **Or**, view the correctly rendered diagrams saved as image files in the [`plots/`](plots/) folder of this repository
+
 ## 📄 Final Report
 
 You can read the full report with methodology, analysis, and conclusions in [`report/final_report.pdf`](report/final_report.pdf).
